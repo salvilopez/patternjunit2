@@ -4,7 +4,6 @@ import org.junit.jupiter.api.Tag;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.NoSuchElementException;
 
 @Tag("database")// Es una etiqueta para que en la clase SuiteTest podamos definir que se ejecuten las clases
                 // o métodos que queramos seleccionandolos por etiqueta "@Tag"
@@ -59,7 +58,7 @@ public class BookShop implements IBookShop{
         public Object next() {
 
             if(books.isEmpty())
-                throw new NoSuchElementException();
+                return false;
 
             return books.get(currentIndex++);
         }

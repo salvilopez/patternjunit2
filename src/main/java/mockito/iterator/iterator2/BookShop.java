@@ -38,6 +38,9 @@ public class BookShop implements Iterable<Book>{
 
         @Override
         public Book next() {
+            if (!hasNext()){
+                throw new NoSuchElementException();
+            }
             return books.get(currentIndex++);
         }
     }
