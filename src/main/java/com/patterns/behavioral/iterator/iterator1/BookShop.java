@@ -47,11 +47,11 @@ public class BookShop implements IBookShop{
 
         @Override
         public boolean hasNext() {
+            boolean booleanTemp=true;
             if (this.currentIndex >= books.size()) {
-                return false;
-            }else {
-                return true;
+                booleanTemp=false;
             }
+            return booleanTemp;
         }
 
         @Override
