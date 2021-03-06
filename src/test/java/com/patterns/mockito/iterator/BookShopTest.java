@@ -55,10 +55,10 @@ class BookShopTest {
     @DisplayName("addBookNull")
     public void addBookNull() {
 
-        book = null;
-       // verify(bookShop).addBook(bookArgumentCaptor.capture());
+        Book book = new Book("5656435", "Hawkins", 2021 );
 
-        //assertEquals(null, bookArgumentCaptor.getValue());
+
+        assertTrue(book!=null);
 
     }
 
