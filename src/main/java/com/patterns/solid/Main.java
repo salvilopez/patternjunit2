@@ -12,7 +12,7 @@ public class Main {
         } else if (carType.equals("electric")) {
             car = new ElectricCar();
         }else{
-            throw new InvalidCarException("Invalid car");
+            throw new InvalidCarException("Invalid car",new Throwable());
         }
         car.accelerate();
     }
