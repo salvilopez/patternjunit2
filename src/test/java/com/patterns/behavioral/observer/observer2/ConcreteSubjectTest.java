@@ -14,7 +14,8 @@ class ConcreteSubjectTest {
         Observer bloomberg = new ConcreteObserver("bloomberg");
         assertEquals(0, elon.observers.size());
         elon.addSubscriber(bloomberg);
-        assertTrue(elon.handle.equals("@elonmusk") );
+        String text="@elonmusk";
+        assertTrue(text.equals(elon.handle) );
         assertEquals(1, elon.observers.size());
 
     }
