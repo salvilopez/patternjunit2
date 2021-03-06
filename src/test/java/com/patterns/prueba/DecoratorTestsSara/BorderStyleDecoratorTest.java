@@ -9,14 +9,18 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 @Tag("database")
 class BorderStyleDecoratorTest {
-
+/*
     @Test
     void draw() {
+        Shape circulo = new Circle();
+        String style ="sólido";
+        Shape circuloBordeDecorado = new BorderStyleDecorator(circulo, style);
+        circulo.draw();
     }
 
     @Test
     void resize() {
-    }
+    }*/
 
     @Test
     void description() {
