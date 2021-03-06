@@ -1,5 +1,7 @@
 package com.patterns.solid;
 
+import loggerConfiguration.Log4jPropertiesConfiguration;
+
 public class ElectricCar implements ICar{
 
     private int battery;
@@ -7,9 +9,9 @@ public class ElectricCar implements ICar{
     @Override
     public void accelerate() {
         if (hasBattery()) {
-            System.out.println("accelerating the car");
+            Log4jPropertiesConfiguration.logger.debug("accelerating the car ");
         } else {
-            System.out.println("I can not accelerate the car");
+            Log4jPropertiesConfiguration.logger.debug("I can not accelerate the car ");
         }
     }
 
@@ -20,11 +22,12 @@ public class ElectricCar implements ICar{
 
     public boolean hasBattery() {
         System.out.println("checking battery");
+        Log4jPropertiesConfiguration.logger.debug("checking battery ");
         if (battery < 95) {
-            System.out.println("the battery is very low :(");
+            Log4jPropertiesConfiguration.logger.debug("the battery is very low :( ");
             return false;
         } else {
-            System.out.println("battery OK :)");
+            Log4jPropertiesConfiguration.logger.debug("battery OK :)");
             return true;
         }
     }

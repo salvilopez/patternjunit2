@@ -1,5 +1,7 @@
 package mockito.iterator.iterator1;
 
+import loggerConfiguration.Log4jPropertiesConfiguration;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -16,7 +18,8 @@ public class Main {
         CustomIterator iterador = books.iterator();
         while (iterador.hasNext()){
             Book book = (Book) iterador.next();
-            System.out.println(book);
+            Log4jPropertiesConfiguration.logger.debug(book);
+
         }
 
 
