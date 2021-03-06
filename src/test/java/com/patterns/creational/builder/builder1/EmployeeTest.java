@@ -21,8 +21,8 @@ class EmployeeTest {
 
         assertTrue(employee instanceof Employee);
 
-        assertEquals(employee.getLastname(), "perez");
-        assertEquals(employee.getName(), "Juan");
+        assertTrue(employee.getLastname().equals("perez"));
+        assertTrue(employee.getName().equals("Juan"));
     }
 
 }

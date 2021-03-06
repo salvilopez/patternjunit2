@@ -15,7 +15,7 @@ class UserTest {
                 .setFirstName("Juan")
                 .build();
 
-        assertEquals(user.getFirstName(), "Juan");
+        assertTrue(user.getFirstName().equals("Juan"));
     }
 
     @Test
@@ -25,7 +25,7 @@ class UserTest {
                 .setMarried(true)
                 .build();
 
-        assertEquals(user.getMarried(), true);
+        assertTrue(user.getMarried()==true);
     }
 
     @Test
@@ -35,7 +35,7 @@ class UserTest {
                 .setAge(23)
                 .build();
 
-        assertEquals(user.getAge(), 23);
+        assertTrue(user.getAge()==23);
 
     }
 

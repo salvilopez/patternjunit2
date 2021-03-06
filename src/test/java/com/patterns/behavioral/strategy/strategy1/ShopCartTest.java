@@ -21,7 +21,7 @@ public class ShopCartTest {
     public void testNotNull()
     {
         ShopCart trolley = new ShopCart();
-        assertTrue(trolley!=null);
+        assertNotNull(trolley);
 
     }
 
