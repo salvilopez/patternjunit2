@@ -1,12 +1,15 @@
 package com.patterns;
 
 import com.patterns.behavioral.strategy.strategy1.PaypalStrategyTest;
+import junit.framework.TestSuite;
+import org.junit.Test;
 import org.junit.platform.runner.JUnitPlatform;
 import org.junit.platform.suite.api.IncludeTags;
 import org.junit.platform.suite.api.SelectClasses;
 import org.junit.platform.suite.api.SelectPackages;
 import org.junit.platform.suite.api.SuiteDisplayName;
 import org.junit.runner.RunWith;
+import com.patterns.testexample.*;
 
 
 /*
@@ -20,4 +23,7 @@ import org.junit.runner.RunWith;
 // @IncludeTags("database") // También se puede usar @ExcludeTags para el caso contrario
 // @SelectClasses(PaypalStrategyTest.class)
 public class SuiteTest {
+
+
+
 }
