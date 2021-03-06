@@ -17,11 +17,11 @@ class BorderThicknessDecoratorTest {
         Shape rectangulo = new Rectangle();
         Shape rectanguloDecorado = new BorderThicknessDecorator(rectangulo, "2px");
         assertEquals("Border thickness is: 2px", rectanguloDecorado.draw());
-    } */
+    }
 
     @Test
     void resize() {
-    }
+    }*/
 
     @Test
     void description() {
