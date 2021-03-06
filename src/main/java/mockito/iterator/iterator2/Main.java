@@ -1,7 +1,7 @@
 package mockito.iterator.iterator2;
 
 
-import loggerConfiguration.Log4jPropertiesConfiguration;
+import loggerconfiguration.Log4jPropertiesConfiguration;
 import mockito.iterator.iterator1.Book;
 
 import java.util.Iterator;

@@ -1,6 +1,6 @@
 package com.patterns.behavioral.iterator.iterator1;
 
-import loggerConfiguration.Log4jPropertiesConfiguration;
+import loggerconfiguration.Log4jPropertiesConfiguration;
 import org.junit.jupiter.api.Tag;
 
 import java.util.ArrayList;

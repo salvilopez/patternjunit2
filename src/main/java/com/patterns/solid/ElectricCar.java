@@ -1,6 +1,6 @@
 package com.patterns.solid;
 
-import loggerConfiguration.Log4jPropertiesConfiguration;
+import loggerconfiguration.Log4jPropertiesConfiguration;
 
 public class ElectricCar implements ICar{
 
