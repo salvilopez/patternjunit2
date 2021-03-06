@@ -58,7 +58,7 @@ class BookShopTest {
         Book book = new Book("5656435", "Hawkins", 2021 );
 
 
-        assertTrue(book!=null);
+        assertNotNull(book);
 
     }
 

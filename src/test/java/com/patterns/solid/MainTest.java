@@ -10,7 +10,7 @@ class MainTest {
     @DisplayName("carnotNull")
     public void carnotNull() {
         Car car = new Car();
-        assertTrue(car!=null);
+        assertNotNull(car);
 
     }
 
