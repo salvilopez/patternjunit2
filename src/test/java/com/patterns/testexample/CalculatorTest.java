@@ -20,7 +20,7 @@ class CalculatorTest {
     void sumTest(){
         Calculator calc = new Calculator();
         System.out.println("Suma");
-        assertEquals(calc.sum(5,5),10);
+        assertEquals(10,calc.sum(5,5));
     }
 
 
@@ -28,6 +28,6 @@ class CalculatorTest {
     void subTest(){
         System.out.println("Resta");
         Calculator calc = new Calculator();
-        assertEquals(calc.rest(10,6),4);
+        assertEquals(4,calc.rest(10,6));
     }
 }
