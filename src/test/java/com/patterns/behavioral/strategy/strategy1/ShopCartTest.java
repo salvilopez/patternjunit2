@@ -14,4 +14,17 @@ public class ShopCartTest {
     }
 
 
+
+
+    @Test
+    @DisplayName("TestNotNull")
+    public void testNotNull()
+    {
+        ShopCart trolley = new ShopCart();
+        assertTrue(trolley!=null);
+
+    }
+
+
+
 }
