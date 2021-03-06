@@ -17,11 +17,10 @@ public class ElectricCar implements ICar{
 
     @Override
     public void stop() {
-        System.out.println("accelerating the car");
+        Log4jPropertiesConfiguration.logger.debug("accelerating the car");
     }
 
     public boolean hasBattery() {
-        System.out.println("checking battery");
         Log4jPropertiesConfiguration.logger.debug("checking battery ");
         if (battery < 95) {
             Log4jPropertiesConfiguration.logger.debug("the battery is very low :( ");
