@@ -37,3 +37,13 @@ h
 8src/main/java/com/patterns/behavioral/mediator/User.java,6\b\6bdef431d552c28399a0853877948bc67c2aad10
 k
 ;src/test/java/com/patterns/behavioral/AbstractUserTest.java,7\f\7f1d0a3b9f3e987c80a5efa08caf0d5816866e31
+Z
+*src/main/java/com/patterns/Calculator.java,4\f\4f5b28e53c9af9de1a7e6f092f6d50b51b354f69
+_
+/src/main/java/com/patterns/structural/Main.java,3\8\38e6f280a872dbd24b180b7845e8e26eb273d969
+i
+9src/main/java/com/patterns/structural/decorator/Main.java,0\1\01ea57f0a84042cda625cf562ba9ae2541e1940a
+Y
+)src/main/java/com/patterns/main/Main.java,e\e\ee3b243129c8eb798d09f47a2fcb72c462f77b27
+g
+7src/main/java/com/patterns/creational/factory/Main.java,3\f\3f57f28041bac4977184c29364524ea2765235ab
